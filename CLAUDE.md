@@ -71,7 +71,7 @@ A scraper for the Meta Ad Library API. See that module's own README/comments for
 **Key file**: `meta_ad_scraper.py`
 
 **Inputs (CLI or prompts):**
-- `search_query` — brand/category keyword (e.g., `"astrotalk"`, `"edtech"`)
+- `search_query` — brand/category keyword (e.g., a brand name or category term)
 - `country` — ISO country code, default `IN`
 
 **Output:**

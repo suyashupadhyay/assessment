@@ -266,7 +266,7 @@ def main() -> None:
         search_query = sys.argv[1]
         country = "IN"
     else:
-        search_query = input("Enter search query (e.g. astrotalk, edtech): ").strip()
+        search_query = input("Enter search query: ").strip()
         if not search_query:
             print("[ERROR] search_query cannot be empty.")
             sys.exit(1)
